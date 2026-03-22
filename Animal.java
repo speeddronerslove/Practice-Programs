@@ -2,6 +2,8 @@ class Animalia {
     String Name;
     String Type;
     int Age;
+    void show () {
+    }
 }
 
 class Dog extends Animalia {
@@ -14,6 +16,9 @@ class Dog extends Animalia {
     void Dog() {
         System.out.println("My name is " + Name + " I am a Dog " + Type + " with age " + Age);
     }
+     void show () {
+        System.out.println("This is overrided one of dog");
+     }
 }
 
 class Cat extends Animalia {
@@ -26,15 +31,22 @@ class Cat extends Animalia {
     void Cat() {
         System.out.println("My name is " + Name + " I am a Cat " + Type + " with age " + Age);
     }
+     void show () {
+        System.out.println("This is overrided one of cat");
+     }
 }
 
 public class Animal {
     public static void main(String args[]) {
 
         Cat cat = new Cat();   
-        Dog dog = new Dog();   
+        Dog dog = new Dog(); 
+        Animalia a1 = new Cat();
+        Animalia a2 = new Dog();  
 
         cat.Cat();
         dog.Dog();
+        a1.show();
+        a2.show();
     }
 }
