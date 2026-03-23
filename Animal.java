@@ -13,7 +13,7 @@ class Dog extends Animalia {
         Age = 2;
     }
 
-    void Dog() {
+    void printdog() {
         System.out.println("My name is " + Name + " I am a Dog " + Type + " with age " + Age);
     }
      void show () {
@@ -28,7 +28,7 @@ class Cat extends Animalia {
         Age = 2;
     }
 
-    void Cat() {
+    void printcat() {
         System.out.println("My name is " + Name + " I am a Cat " + Type + " with age " + Age);
     }
      void show () {
@@ -44,8 +44,8 @@ public class Animal {
         Animalia a1 = new Cat();
         Animalia a2 = new Dog();  
 
-        cat.Cat();
-        dog.Dog();
+        cat.printcat();
+        dog.printdog();
         a1.show();
         a2.show();
     }
