@@ -11,7 +11,7 @@ class Login {
 
     void checker(String u, String p) {
         if (u.equals(username) && p.equals(password)) {
-            System.out.println("Login successful brothaa");
+            System.out.println("Login successful "+username);
         } else {
             System.out.println("Invalid credentials");
         }
