@@ -46,6 +46,6 @@ public class Logged2 {
 
 
         }
-
+sc.close();
     }
 }
