@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.concurrent.ExecutionException;
 class Student {
     String name;
     int mark;
@@ -53,6 +52,6 @@ public class StudentMenu {
                     break;
                 }
         }
-
+sc.close();
     }
 }

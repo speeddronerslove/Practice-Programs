@@ -30,6 +30,7 @@ class Bankaccount {
 }
 public class ATM {
     public static void main (String args []){
+    @SuppressWarnings("resource")
     Scanner sc = new Scanner (System.in);
     Bankaccount Bnk = new Bankaccount("Mogana", 1000);
     while (true){

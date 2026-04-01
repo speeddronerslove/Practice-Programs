@@ -1,3 +1,4 @@
+import java.util.Scanner;
 class Student {
     String name;
     int mark;
@@ -32,7 +33,10 @@ class Student {
 }
 public class NewStudent {
     public static void main(String[] args) {
-                Student[] students = new Student[3];
+        Scanner sc = new Scanner(System.in);
+        System.out.println(" Enter the number of students");
+        int n = sc.nextInt();
+                Student[] students = new Student[n];
 
         students[0] = new Student("Mogana", 78);
         students[1] = new Student("David", 98);
@@ -47,5 +51,6 @@ public class NewStudent {
         for (int i = 0; i < students.length; i++) {
             students[i].istopper();
         }
+        sc.close();
     }
 }

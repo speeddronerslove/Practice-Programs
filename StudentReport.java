@@ -20,7 +20,7 @@ class Student {
             System.out.println(name+ " Failed");
         }
     }
-    void istopper(String name,int mark){
+    void istopper(){
         if(mark >= 90){
             System.out.println(name + " is a topper");
         }
@@ -35,9 +35,9 @@ public class StudentReport {
         Student sc = new Student("Mogana murali D", 78);
         Student sc1 = new Student("David Raju", 98);
         sc.grade();
-        sc.istopper("Mogana murali D", 78);
+        sc.istopper();
         sc1.grade();
-        sc.istopper("David Raju", 98);
+        sc.istopper();
         
     }
 }

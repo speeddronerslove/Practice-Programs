@@ -14,7 +14,7 @@
 public class Calculator {
     public static void main (String args []){
         Calci cc =  new Calci(); 
-       System.out.println(cc.add(10, 11);) 
+        cc.add(10, 11);
         cc.add(11, 22);
         cc.add(2, 3, 4);
         cc.add(20, 30);
