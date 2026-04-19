@@ -27,12 +27,12 @@ public class Logged2 {
         int attempts = 3;
         while (attempts > 0){
             System.out.println("Enter the username = ");
-            String u = sc.next();
+            String u1 = sc.next();
             Thread.sleep(1000);
             System.out.println("Enter the Password = ");
-            String p = sc.next();
+            String p1 = sc.next();
              Thread.sleep(1000);
-           boolean status =  lg.login(u, p);
+           boolean status =  lg.login(u1, p1 );
         if(status){
             break ;
         }
