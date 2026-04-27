@@ -25,6 +25,8 @@ class Bankaccount {
     public class Bank {
         public static void main (String args []){
             Bankaccount Bnk = new Bankaccount("Mogana",1000);
+
+
             Bnk.deposit(5000);
             Bnk.withdraw(2000);
             
