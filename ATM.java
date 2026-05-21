@@ -6,7 +6,7 @@ class Bankaccount {
     Bankaccount (String n,int b){
 
         name=n;
-        balance=b;
+        balance=b;//sheeet happens bruh..//
     }
 
     void deposit (int amount) {
