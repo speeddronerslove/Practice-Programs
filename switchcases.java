@@ -19,5 +19,6 @@ public class switchcases {
                 System.out.println("Sorry Jomaa's jam is at very demand..... its out of stock");
                 break;    
         }
+        sc.close();
     }
 }

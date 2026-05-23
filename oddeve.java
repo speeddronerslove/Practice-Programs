@@ -11,6 +11,7 @@ public class oddeve {
         else {
             System.out.println("Its an odd number bro");
         }
+        sc.close();
     }
     
     
