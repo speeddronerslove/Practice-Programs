@@ -6,7 +6,7 @@ public class Arraylist {
         arr.add("Joola");
         arr.add("Dolli");
 
-        System.out.println("The things in array are"+arr);
+        System.out.println("Thec things in array are"+arr);
         
     }
 }
