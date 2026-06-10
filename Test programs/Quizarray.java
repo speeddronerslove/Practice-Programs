@@ -7,7 +7,7 @@ public class Quizarray {
             "2. Why crows dont fart",
             "3. In which year did perfumes invented "
          };
-
+ 
          String [][] options = {
             {"A. Arnold , B.Virat , C.ElonMustard, D.Indiu"},
             {"A. Small Ass, B.Much Hair , C.Low belly pressure , D"},
