@@ -3,7 +3,7 @@ class Logged {
     String username;
     String password;
 
-    Logged (String u,String p){
+    Logged (String u,String p){ 
         username=u;
         password=p;
     }
