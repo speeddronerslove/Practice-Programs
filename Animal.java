@@ -7,7 +7,7 @@ class Animalia {
 }
 
 class Dog extends Animalia {
-    Dog() {
+    Dog() { 
         Name = "Molli";
         Type = "Calio Dog";
         Age = 2;
