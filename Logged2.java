@@ -6,7 +6,7 @@ class Logged {
     Logged (String u,String p){ 
         username=u;
         password=p;
-    }
+    } 
     boolean login (String u,String p){
         if(u.equals(username) && p.equals(password)){
             System.out.println("Login successfull "+username);
