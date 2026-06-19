@@ -10,7 +10,7 @@
         return a+b;
     }
     
-}
+} 
 public class Calculator {
     public static void main (String args []){
         Calci cc =  new Calci(); 
