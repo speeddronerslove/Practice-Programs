@@ -6,7 +6,7 @@ public class Vowels{
         String str = sc.next();
         str = str.toLowerCase();
         int vowels = 0;int  constants = 0 ;
-        for (int i = 0 ; i < str.length();i++){
+        for (int i = 0 ; i <  str.length();i++){
             char chr = str.charAt(i);
             if (chr >= 'a' && chr <= 'z'){
                 if (chr == 'a' || chr == 'e' || chr == 'i' || chr == 'o' || chr == 'u'){

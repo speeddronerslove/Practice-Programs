@@ -13,7 +13,7 @@ class Student {
         }
         else if (mark >= 75){
             System.out.println(name+" Grade B");
-        }
+        } 
         else if (mark >= 50){
             System.out.println(name+" Pass");
         }

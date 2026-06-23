@@ -5,7 +5,7 @@ public class Seclargest {
         int [] arr = {10,33,21,6,19};
         int largest = arr[0];
         int secondlargest = -1 ;
-        for(int i=1; i < arr.length;i++){
+        for(int i=1; i < arr.length;i++){ 
             if(arr[i] > largest){
                 secondlargest=largest;
                 largest=arr[i];

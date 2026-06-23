@@ -7,12 +7,12 @@ public class Quizarray {
             "2. Why crows dont fart",
             "3. In which year did perfumes invented "
          };
-
+ 
          String [][] options = {
             {"A. Arnold , B.Virat , C.ElonMustard, D.Indiu"},
             {"A. Small Ass, B.Much Hair , C.Low belly pressure , D"},
             {"A. 1998 , B. 2021 , C. 1233 , D. 2023"}
-         };
+         }; 
 
          char [] answers = {
             'C','C','B'

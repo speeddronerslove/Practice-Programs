@@ -5,7 +5,7 @@ class Bankaccount {
 
     Bankaccount (String n,int b){
 
-        name=n;
+        name=n; 
         balance=b;//sheeet happens bruh..//
     }
 
