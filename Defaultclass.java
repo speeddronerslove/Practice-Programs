@@ -1,6 +1,6 @@
 class Defaultclass {
 
-    int age =  12;
+    int age =  12; 
     int exp = 0 ;
     int total = age+exp;
     public static void main(String[] args) {
