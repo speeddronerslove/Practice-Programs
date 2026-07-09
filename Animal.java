@@ -11,7 +11,7 @@ class Dog extends Animalia {
         Name = "Molli";
         Type = "Calio Dog";
         Age = 2;
-    }
+    } 
 
     void printdog() {
         System.out.println("My name is " + Name + " I am a Dog " + Type + " with age " + Age);
