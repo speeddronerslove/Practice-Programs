@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import java.util.Scanner;
 public class oddeven {
     public static void main(String[] args){
@@ -11,4 +12,19 @@ public class oddeven {
         }
         sc.close();
     }
+=======
+import java.util.Scanner;
+public class oddeven {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the Number: ");
+        int num = sc.nextInt();
+        if(num %2 == 0) {
+            System.out.println(num + " is Even");
+        } else{
+            System.out.println(num + " is Odd");
+        }
+        sc.close();
+    }
+>>>>>>> 0595234e317be3b63092a671f01dfe3691a164f0
 }
