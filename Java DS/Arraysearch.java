@@ -8,7 +8,7 @@ public class Arraysearch {
         name.add("Joyous");
         name.add("JCB");
         name.add("eveready");
-        name.add("corona");
+        name.add("corona"); 
         name.add("christmas");
 
         Collections.sort(name);
