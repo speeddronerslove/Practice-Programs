@@ -10,7 +10,7 @@ class Bankaccount {
     }
 
     void deposit (int amount) {
-        System.out.println ("The balance before deposit "+balance);
+        System.out.println ("The balance before deposit "+balance); 
         balance += amount;
         System.out.println("The balance after the deposit "+balance);
 
