@@ -8,7 +8,7 @@ public class KrishnaMurthyNum {
         int Original = num;
         int sum= 0;
 
-        while (num > 0) {
+        while (num > 0) { 
 
             int digit= num % 10;
             int factorial= 1;
